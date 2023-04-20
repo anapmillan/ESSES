@@ -29,6 +29,7 @@ Searches for patient-specific alternative resection strategies using simmulated 
  3.- Seizure pattern (pattern_example.mat)
  
      Spreading pattern indicating the activation order of the different brain regions during a seizure. This a structure "patttern" including the fields:
+     
      pattern.trois:      array indicating the indices of sampled active ROIs
      pattern.all_erois:  (n_sampled_rois x 1) array indicating all sampled ROIs
      pattern.order:      array indicating the activation order of active sampled
@@ -36,6 +37,7 @@ Searches for patient-specific alternative resection strategies using simmulated 
      pattern.ntrois:     total number of sampled ROIs
      
  4.- Seed-probability map (seed_map_example.txt).
+ 
     Probability of each ROI of starting a region. Can be derived from the presurgical evaluation of the patient. An artifitial exemplary map is included.
     
     
